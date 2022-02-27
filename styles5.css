@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+img{
+	padding-top:100px;
+	filter: invert(100%);
+}
+body{
+	background-color:black;
+}

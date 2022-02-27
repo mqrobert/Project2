@@ -1,0 +1,86 @@
+@charset "UTF-8";
+div.pics{
+	padding:50px;
+}
+div.tax{
+	align-content: center;
+	padding:50px;
+}
+div.tax1{
+	position:absolute;
+	left:70px;
+	top:500px;
+	
+}
+.taxA{
+	filter: invert(100%);
+
+}
+div.tax2{
+	position:absolute;
+	left:250px;
+	top:500px;
+}
+div.tax3{
+	position:absolute;
+	left:450px;
+	top:500px;
+}
+div.tax4{
+	position:absolute;
+	left:650px;
+	top:500px;
+}
+div.tax5{
+	position:absolute;
+	left:950px;
+	top:500px;
+}
+div.tax6{
+	position: absolute;
+	left:1300px;
+	top:500px;
+}
+div.link{
+	position:absolute;
+	left:1600px;
+	top:800px;
+}
+.blink {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink-bg{
+		color: #fff;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	        { background-color: #04a1d5;}
+	}
+.blink-bg1{
+		color: #fff;
+		padding-bottom: 500px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+	}
+	
