@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PHASE 5</title>
+<link href="styles5.css" rel="stylesheet" type="text/css">
+</head>
+	<body>
+	<center><img src="images/6.png" onMouseOver="this.src='images/6A.png'" alt=""></center>
+	
+		<audio controls>
+  <source src="audio/audio1.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+ 
+
+
+</body>
+	<script>
+	
+function onClick(MyImage) {
+     	MyImage.src = "images/6.png";}
+
+function PlaySound(sound) {
+    	var thissound=document.getElementById(sound);
+    	thissound.play();}
+
+function StopSound(sound) {
+    	var thissound=document.getElementById(sound);
+    	thissound.pause();
+		thissound.currentTime = 0;}
+	
+</script>
+</html>
